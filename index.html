@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>GiancoProjects</title>
+</head>
+<body>
+    <div id="about" class="window" style="display: none;">
+        <h3>./about.sh</h3>
+        <br>
+        <p>
+            Non ho tanto da dire in realta'.. Cresciuto con i videogiochi della PS2
+            e appassionato di tecnologia fin da piccolo. Amo programmare e creare cose nuove o cose
+            gia' esistenti ma con un tocco personale. Disposto sempre ad imparare cose nuove ed affrontare,
+            come nei livelli dei videogiochi, nuove sfide.
+        </p>
+        <br>
+        <h4>| Hobby |</h4>
+        <br>
+        <p>
+            Non faccio dell'informatica la mia vita (menomale). Mi piace allenarmi all'aperto, fare lunghe camminate
+            in mezzo alla natura e stare in compagnia dei miei amici.
+        </p>
+        <br>
+        <h4>| Conoscenze |</h4>
+        <br>
+        <p>Non sono uno scienziato o un laureato, ma qualcosina la conosco dai..</p>
+        <br>
+        <div>
+            <h4>- HTML, CSS & JavaScript </h4>
+            <p>Linguaggi usati per creare quello che state vedendo ora.. e sicuramente quelli che conosco meglio.</p>
+        </div>
+        <br>
+        <div>
+            <h4>- NodeJS</h4>
+            <p>
+                Back-end utilizzato per creare il gioco di Uno multiplayer e altri micro-progetti..
+            </p>
+        </div>
+        <br>
+        <div>
+            <h4>- SQL</h4>
+            <p>
+                Non utilizzato molto nei miei progetti, ma conosco le basi per poter creare database, tabelle ed eseguire query.
+            </p>
+        </div>
+        <br>
+        <div>
+            <h4>- Java</h4>
+            <p>
+                Linguaggio imparato principalmente per creare plugins per server Minecraft utilizzando le API di Spigot / Paper.
+                Primo linguaggio dove mi sono interfacciato con la programmazione ad oggetti ecc..
+                Forse uno dei miei linguaggi preferiti!
+            </p>
+        </div>
+        <br>
+        <div>
+            <h4>- Python & C++</h4>
+            <p>
+                C++ imparato a scuola, Python in autonomia ma entrambi non utilizzati molto nei miei progetti.
+                Entrambi hanno una cosa in comune: Conosco le basi.. niente di avanzato.
+            </p>
+        </div>
+        <br>
+        <div class="scripts">
+            <p>-></p>
+            <p class="selector" onclick="closeWindow('about')">./back.sh</p>
+        </div>
+        <br>
+    </div>
+    <div id="projects" class="window" style="display: none;">
+        <h3>./projects.sh</h3>
+        <br>
+        <p>
+            Sul mio Github trovate la lista intera dei progetti con il codice sorgente.
+            Qui invece vi elenco solo i progetti piu' significativi dove ci ho speso del tempo.
+        </p>
+        <br>
+        <a href="https://github.com/CalmaGliOrmoni">Repo GitHub</a>
+        <br><br>
+        <div>
+            <h4>- Uno Multiplayer</h4>
+            <p>
+                Gioco di Uno multiplayer creato con NodeJS e Socket.io per il back-end
+                e HTML, CSS & JavaScript per il front-end. E' possibile giocare con amici
+                o con giocatori casuali. Non avendo soldi e tempo per hostarlo, posso solo linkarvi il codice sorgente..
+            </p>
+            <br>
+            <div class="scripts">
+                <p class="selector" onclick="window.open('https://github.com/CalmaGliOrmoni/uno_njs')">./source.sh</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h4>- Coppolarossa [Website]</h4>
+            <p>
+                Sito web creato per un ristorante locale dove ho lavorato come cameriere. Non posso rilasciare
+                il codice sorgente direttamente su GitHub (non che ci sia chissa' cosa, alla fine e' una pagina statica),
+                ma vi posso linkare il sito web.
+            </p>
+            <br>
+            <div class="scripts">
+                <p class="selector" onclick="window.open('https://coppolarossadamarco.it', '_blank')">./visit.sh</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h4>- Capitalus</h4>
+            <p>
+                Sito web hostato su Altervista il cui obiettivo e' indovinare piu' capitali possibili rispettando un numero
+                massimo di errori. Uno dei miei primissimi siti web creati e ovviamente pieno di vulnerabilita'.
+            </p>
+            <br>
+            <div class="scripts">
+                <p class="selector" onclick="window.open('https://giancoprojects.altervista.org/Capitalus')">./visit.sh</p>
+                <p class="selector">./source.sh</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h4>- DauniaLand</h4>
+            <p>
+                Server Minecraft creato in collaborazione con un mio amico, utilizzando Spigot e plugins creati da noi in Java.
+                Purtroppo il server non e' piu' attivo da un po' di tempo, ma potete trovare il codice sorgente dei plugins
+                sul mio GitHub.
+            </p>
+            <br>
+            <div class="scripts">
+                <p class="selector" onclick="window.open('https://github.com/CalmaGliOrmoni')">./source.sh</p>
+            </div>
+        </div>
+        <br>
+        <div class="scripts">
+            <p>-></p>
+            <p class="selector" onclick="closeWindow('projects')">./back.sh</p>
+        </div>
+        <br>
+    </div>
+    <div id="contacts" class="window" style="display: none;">
+        <h3>./contacts</h3>
+        <br>
+        <p>Qui trovate tutti i mie contatti social</p>
+        <br>
+        <div class="scripts">
+            <p class="selector">./instagram.sh</p>
+            <p class="selector">./telegram.sh</p>
+        </div>
+        <br>
+        <div class="scripts">
+            <p>-></p>
+            <p class="selector" onclick="closeWindow('contacts')">./back.sh</p>
+        </div>
+    </div>
+    <div id="admin" class="window" style="display: none;">
+        <h3>./admin.sh</h3>
+        <br>
+        <p id="pswd_status">Tip: Se sei uno smanettone, sai gia' cosa fare.</p>
+        <br>
+        Password admin: <input type="text" name="erfd" id="erfd" placeholder="_">
+        <br>
+        <br>
+        <div class="scripts">
+            <p>-></p>
+            <p class="selector" onclick="kfdkdfk()">./login.sh</p>
+            <p class="selector" onclick="closeWindow('admin')">./back.sh</p>
+        </div>
+    </div>
+    <h3>ssh localhost@GiancoProjects</h3>
+    <br>
+    <p>/---------------------------/</p>
+    <pre> Benvenuto nel mio portale!</pre>
+    <pre> Cosa desideri fare?</pre>
+    <p>|--------------------------|</p>
+    <br>
+    <div class="scripts">
+        <p>-></p>
+        <p class="selector" onclick="openWindow('about')">./about.sh</p>
+        <p class="selector" onclick="openWindow('projects')">./projects.sh</p>
+        <p class="selector" onclick="openWindow('contacts')">./contacts.sh</p>
+        <p class="selector" onclick="openWindow('admin')">./admin.sh</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
